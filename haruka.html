@@ -1,0 +1,111 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Haruka VPN
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(270deg, #ff7e5f, #feb47b, #ff7e5f);
+            background-size: 600% 600%;
+            animation: gradient-animation 10s ease infinite;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #ff0000, #ff6347, #ff0000);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient-animation 3s ease infinite;
+            background-size: 200% 200%;
+        }
+        @keyframes gradient-animation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .bounce {
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-30px); }
+            60% { transform: translateY(-15px); }
+        }
+        .button-animate {
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .button-animate:hover {
+            background-color: #ff6347;
+            transform: scale(1.05);
+        }
+        .button-animate:active {
+            background-color: #ff4500;
+            transform: scale(0.95);
+        }
+  </style>
+ </head>
+<body class="text-white">
+  <div class="flex flex-col items-center py-0 fade-in" style="margin-top: 0px;">
+   <img alt="" class="w-25 h-25 bounce" height="150" src="kooo.png" width="150"/>
+   <span class="gradient-text text-3xl font-bold">
+    HARUKA VPN
+   </span>
+  </div>
+  <div class="text-center text-white italic mb-4 fade-in">
+   เน็ตฟรีเร็วแรงไม่จำกัดด้วยมือท่าน
+  </div>
+  <div class="flex justify-center fade-in">
+   <img alt="Phone displaying campaign search and list" class="w-80" height="400" src="/photo/erer.png" width="300"/>
+  </div>
+  <div class="flex justify-center py-4 fade-in">
+   <a class="bg-white text-black px-4 py-2 rounded-lg flex items-center space-x-2 button-animate" href="#">
+    <i class="fab fa-google-play">
+    </i>
+    <span>
+     ดาวน์โหลดเลยตอนนี้
+    </span>
+   </a>
+  </div>
+  
+<!DOCTYPE html>
+<div class="text-center mt-0 fade-in">
+   <div class="grid grid-cols-2 gap-4">
+    <div class="border-r border-gray-300 pr-4 flex justify-center">
+     <div class="w-16 h-16 flex items-center justify-center">
+     <h2 class="text-1xl font-bold">
+      ซิมการ์ด<br>ที่รองรับ
+     </h2>
+     </div>
+    </div>
+    <div class="pl-4 flex justify-center">
+     <div class="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGbL1jGO5ixX0-6SsK7A59QcDnsNkjWt2jKg&usqp=CAU" alt="Download" class="rounded-full"/>
+     </div>
+    </div>
+    <div class="border-r border-gray-300 pr-4 mb-5 flex justify-center">
+     <div class="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVYLJ6LPB1qZBxpl13_PMDo5ov6j_C1KFUowRfIU9LxsKoWdwMyBiQOZMS&s=10" alt="Customer" class="rounded-full"/>
+     </div>
+    </div>
+    <div class="pl-4 flex justify-center">
+     <div class="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKIcMyC20nmi5n4ytb_H2dUftRA9iq2te7BA&usqp=CAU" alt="Developer" class="rounded-full"/>
+     </div>
+    </div>
+   </div>
+  </div>
+
+ </body>
+</html>
